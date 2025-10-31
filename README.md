@@ -13,7 +13,7 @@ A lightweight Android utility tool to explore installed apps and device informat
 ---
 
 <p align="center">
-  <img src="assets/banner.png" alt="DeviceLens Banner" width="90%">
+  <img src="assets/banner.png" alt="DeviceLens Banner" width="100%">
 </p>
 
 ---
@@ -47,7 +47,7 @@ A lightweight Android utility tool to explore installed apps and device informat
 | **Min SDK** | 21 |
 | **Target SDK** | 34 |
 | **IDE Used** | CodeAssist (Android IDE) |
-| **File Size** | < 100 KB |
+| **File Size** | < 1 MB |
 | **Offline Mode** | Supported |
 
 ---
@@ -55,7 +55,7 @@ A lightweight Android utility tool to explore installed apps and device informat
 <h2 align="center">📲 Download</h2>
 
 <p align="center">
-  <a href="https://github.com/YourUsername/AppScope/releases/latest">
+  <a href="https://github.com/MSI-Sirajul/DeviceLens/releases/latest">
     <img src="https://img.shields.io/badge/⬇️_Download-Latest_APK-blue?style=for-the-badge&logo=android">
   </a>
 </p>
