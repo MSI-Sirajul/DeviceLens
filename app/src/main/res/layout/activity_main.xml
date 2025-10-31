@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe1f5fe"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#ff01579b"
+        android:elevation="4dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp" >
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/profile_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/profile_icon_description"
+            android:src="@drawable/profile"
+			android:tint="#E1F5FE" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/search_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg"
+        android:elevation="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp" >
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/search_icon_description"
+            android:src="@drawable/search"
+            android:tint="#E1F5FE" />
+
+        <EditText
+            android:id="@+id/search_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/search_hint"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:singleLine="true"
+            android:textColor="#ff212121"
+            android:textColorHint="#ff9e9e9e"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab_bar"
+        android:layout_below="@id/search_bar_container"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:id="@+id/tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ff01579b"
+        android:elevation="8dp"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/tab_user_apps"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical|center|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/icon_user_apps"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:contentDescription="@string/user_apps_tab_description"
+                android:src="@drawable/user_app"
+                android:tint="#E1F5FE" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_apps_tab_title"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_system_apps"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical|center|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/icon_system_apps"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:contentDescription="@string/system_apps_tab_description"
+                android:src="@drawable/system_app"
+                android:tint="#E1F5FE" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/system_apps_tab_title"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_device_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical|center|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/icon_device_info"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:contentDescription="@string/device_info_tab_description"
+                android:src="@drawable/device_info"
+                android:tint="#E1F5FE" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/device_info_tab_title"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
