@@ -4,16 +4,39 @@
 A lightweight Android utility tool to explore installed apps and device information.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/v/release/MSI-Sirajul/DeviceLens?color=2196F3&label=Latest%20Version"><br>
-  <img src="https://img.shields.io/github/downloads/MSI-Sirajul/DeviceLens/total?color=00BCD4&label=Total%20Downloads"><br>
-  <img src="https://img.shields.io/badge/Platform-Android-green?logo=android">
-</p>
-
 ---
 
 <p align="center">
   <img src="assets/banner.png" alt="DeviceLens Banner" width="100%">
+</p>
+
+---
+
+<h2 align="center">Project Config</h2>
+
+| Property | Value |
+|-----------|--------|
+| **Language** | Java |
+| **Libraries** | Native Android AppCompat |
+| **Min SDK** | 21 |
+| **Target SDK** | 34 |
+| **IDE Used** | CodeAssist (Android IDE) |
+| **File Size** | < 1 MB |
+| **Offline Mode** | Supported |
+
+---
+
+<h2 align="center">DOWNLOAD.!</h2>
+
+<p align="center">
+  <a href="https://github.com/MSI-Sirajul/DeviceLens/releases/latest">
+    <img src="https://img.shields.io/badge/Download-Latest_APK-blue?style=for-the-badge&logo=android">
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/MSI-Sirajul/DeviceLens?color=2196F3&label=Latest%20Version"><br>
+  <img src="https://img.shields.io/github/downloads/MSI-Sirajul/DeviceLens/total?color=00BCD4&label=Total%20Downloads"><br>
+  <img src="https://img.shields.io/badge/Platform-Android-green?logo=android">
 </p>
 
 ---
@@ -35,30 +58,6 @@ A lightweight Android utility tool to explore installed apps and device informat
 - `QUERY_ALL_PACKAGES` → To list all installed apps  
 - `SYSTEM_ALERT_WINDOW` → To show overlay/virtual views  
 - `REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` → Keeps background service active  
-
----
-
-<h2 align="center">⚙️ Tech Info</h2>
-
-| Property | Value |
-|-----------|--------|
-| **Language** | Java |
-| **Libraries** | Android Support v4/v7 |
-| **Min SDK** | 21 |
-| **Target SDK** | 34 |
-| **IDE Used** | CodeAssist (Android IDE) |
-| **File Size** | < 1 MB |
-| **Offline Mode** | Supported |
-
----
-
-<h2 align="center">📲 Download</h2>
-
-<p align="center">
-  <a href="https://github.com/MSI-Sirajul/DeviceLens/releases/latest">
-    <img src="https://img.shields.io/badge/⬇️_Download-Latest_APK-blue?style=for-the-badge&logo=android">
-  </a>
-</p>
 
 ---
 
