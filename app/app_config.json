@@ -1,0 +1,10 @@
+{
+  "minSdkVersion": 22.0,
+  "viewBindingEnabled": false,
+  "libraries": "[]",
+  "useR8": true,
+  "targetSdkVersion": 34.0,
+  "versionName": "99.99_MSI-Sirajul_Builder",
+  "versionCode": 999999.0,
+  "zipAlignEnabled": true
+}
