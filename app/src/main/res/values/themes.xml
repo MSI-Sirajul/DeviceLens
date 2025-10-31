@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">#01579B</item>
+        <item name="android:colorPrimaryDark">#01579B</item>
+        <item name="android:colorAccent">#00BCD4</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">#01579B</item>
+        <item name="android:windowBackground">#ECEFF1</item>
+        <!-- NoActionBar means we handle the title bar ourselves -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>
