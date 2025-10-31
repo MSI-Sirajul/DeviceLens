@@ -13,7 +13,7 @@ A lightweight Android utility tool to explore installed apps and device informat
 ---
 
 <p align="center">
-  <img src="preview/banner.png" alt="AppScope Banner" width="90%">
+  <img src="assets/banner.png" alt="DeviceLens Banner" width="90%">
 </p>
 
 ---
