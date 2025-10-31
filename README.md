@@ -1,7 +1,7 @@
 <h1 align="center">DeviceLens</h1>
 
-<p align="center">
-A lightweight Android utility tool to explore installed apps and device information.
+<p align="justify">
+<b>DeviceLens</b> Android utility tool to explore all <b>Apps</b>, <b>Apps-ID</b>, <b>Apps-INFO</b> and <b>Device Framework info</b>.
 </p>
 
 ---
