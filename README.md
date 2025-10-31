@@ -41,23 +41,21 @@
 
 ---
 
-<h2 align="center">✨ Features</h2>
+<h2 align="center">Features</h2>
 
-- 📋 List all **user and system apps**  
-- 🆔 View **App ID**, package name, and version info  
-- ⚙️ Redirect to **App Info page** instantly  
-- 📲 Display **Device information** (Model, Brand, SDK, etc.)  
-- 🚀 **Lightweight (<100KB)** and battery efficient  
-- 🔒 Works **offline** and requires minimal permissions  
-- 🧩 Built using **Android Support v4/v7** (no AndroidX, no Material UI)
+- [ ] List all **user and system apps**  
+- [ ] View **App ID**, package name, and version info  
+- [ ] Redirect to **App Info page** instantly  
+- [ ] Display **Device information** (Model, Brand, SDK, etc.)  
+- [ ] **Lightweight (<100KB)** and battery efficient  
+- [ ] Works **offline** and requires minimal permissions  
+- [ ] Built using **Android Support v4/v7** (no AndroidX, no Material UI)
 
 ---
 
-<h2 align="center">🛡️ Permissions</h2>
+<h2 align="center"> Required Permissions</h2>
 
-- `QUERY_ALL_PACKAGES` → To list all installed apps  
-- `SYSTEM_ALERT_WINDOW` → To show overlay/virtual views  
-- `REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` → Keeps background service active  
+- `QUERY_ALL_PACKAGES` → To list all apps. 
 
 ---
 
